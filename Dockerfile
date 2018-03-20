@@ -1,5 +1,7 @@
 FROM node:alpine
 
+RUN su
+
 RUN npm i -g express
 RUN npm i -g express-generator
 
