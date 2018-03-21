@@ -9,6 +9,6 @@ RUN express /app
 WORKDIR /app
 
 RUN npm i
-RUN npm i --save mongoose
+RUN npm i --save mongoose body-parser moment
 
 CMD ["npm", "start"]
