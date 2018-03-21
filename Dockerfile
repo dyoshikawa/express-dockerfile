@@ -8,6 +8,7 @@ RUN npm i -g express-generator
 RUN express /app
 WORKDIR /app
 
-RUN npm install
+RUN npm i
+RUN npm i --save mongoose
 
 CMD ["npm", "start"]
