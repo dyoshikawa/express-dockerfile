@@ -1,6 +1,4 @@
-FROM node:alpine
-
-USER root
+FROM node:10-alpine
 
 RUN npm i -g express
 RUN npm i -g express-generator
